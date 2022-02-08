@@ -1,0 +1,102 @@
+*{
+    margin:0px
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin:0px 100px;
+}
+nav{
+    background-color: rgba(14, 13, 13, 0.979);
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px;
+}
+.nav-bar ul{
+    margin-top: 15px;
+}
+.nav-bar li{
+    display: inline;
+}
+.nav-bar li a{
+    padding:7px;
+}
+/*banner*/
+.banner{
+    background-color: rgba(14, 13, 13, 0.979);
+    padding:180px 0px;
+}
+.banner-container{
+    display: flex;
+}
+.col{
+    width: 45%;
+    height: 180px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 80px;
+}
+.col p{
+    margin:15px 0px 55px 0px
+}
+.col-1 .btn{
+    padding:8px 35px;
+    color: white;
+    border: 1px solid #fcb900;
+    border-radius: 80px;
+}
+.col-2{
+    background-image: url(Family\ Values\ -\ Living\ Room.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+/* serviços*/
+.servico-container,.port-list{
+    display: flex;
+    margin-bottom: 100px;
+}
+.servicos h2, .portfolio h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.card{
+    width:32%;
+    height:auto;
+    padding: 5px;
+    background-color: rgb(255, 248, 236);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.966);
+    border-radius: 20px;
+    margin:10px 5px;
+}
+.card h3,p{
+    margin:6px 0px;
+}
+/*portfolio*/
+.port-list{
+    flex-wrap:wrap;
+}
+.img-portfolio{
+    margin: 0px 5px 5px;
+    width:32%
+}
